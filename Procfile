@@ -1,1 +1,1 @@
-web: python ./creditriskapp.py
+web: python ./app.py
