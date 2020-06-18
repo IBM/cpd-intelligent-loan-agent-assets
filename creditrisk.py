@@ -167,21 +167,8 @@ class riskForm():
             payload_scoring = {"input_data": [
                 {"fields": input_data, "values": [input_values]}
             ]}
-        
-            print("Payload before is: ")
+            print("Payload is: ")
             print(payload_scoring)
-            '''print("Payload after is: ")
-            payload_scoring={
-  "input_data": [
-    {
-      "fields": [ "CHECKINGSTATUS", "LOANDURATION", "CREDITHISTORY", "LOANPURPOSE", "LOANAMOUNT", "EXISTINGSAVINGS", "EMPLOYMENTDURATION", "INSTALLMENTPERCENT", "SEX", "OTHERSONLOAN", "CURRENTRESIDENCEDURATION", "OWNSPROPERTY", "AGE", "INSTALLMENTPLANS", "HOUSING", "EXISTINGCREDITSCOUNT", "JOB", "DEPENDENTS", "TELEPHONE", "FOREIGNWORKER"],
-      "values": [
-        [ "no_checking", 13, "credits_paid_to_date", "car_new", 1343, "100_to_500", "1_to_4", 2, "female", "none", 3, "savings_insurance", 46, "none", "own", 2, "skilled", 1, "none", "yes"]
-      ]
-    }
-  ]
-}
-            print(payload_scoring)'''
             header_online = {
                 'Cache-Control': 'no-cache',
                 'Content-Type': 'application/json',
